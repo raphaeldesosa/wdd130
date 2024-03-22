@@ -20,7 +20,7 @@ body {
     --nav-hover-background-color: #FED766; 
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     font-size: xx-large;
     padding: 25px;
     font-family: var(--heading-font);
@@ -102,7 +102,7 @@ article p{
     color: #1E96FC; /* dodger blue */
 }
 
-article h2 {
+article h3 {
     color: #F7CE5D;
 }
 header, main, footer {
@@ -142,7 +142,7 @@ header, main, footer {
     justify-content: center;
 }
 
-h3, h4 {
+h2 {
     display: flex;
     align-items: center;
     justify-content: center;
