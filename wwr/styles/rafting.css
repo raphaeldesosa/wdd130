@@ -46,6 +46,7 @@ header {
     
 }
 
+
 nav {
     display: flex;
     flex: 1 1 100%;
@@ -90,7 +91,7 @@ article {
     position: absolute;
     background-color: rgb(0,0,0,50%);
     width: 1023px;
-    top: 491px
+    top: 480px
     
 }
 
