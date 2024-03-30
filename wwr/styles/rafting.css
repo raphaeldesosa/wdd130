@@ -1,17 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto+Slab:wght@100..900&display=swap");
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    font-family: var(--paragraph-font);
-    padding: 20px;
-}
+
 
 :root {
+
+/************************************************************
+**************
+*
+*                             Variables
+*
+*************************************************************
+***************/    
     --primary-color: black;
     --secondary-color: steelblue;
     --accent-color1: #413C58;
@@ -24,6 +30,17 @@ body {
     --nav-link-color: steelblue;
     --nav-hover-link-color: #413C58;
     --nav-hover-background-color: #FED766; 
+
+/************************************************************
+**************
+*
+*                 Default HTML TAG settings
+*
+*************************************************************
+***************/    
+
+
+
 }
 
 h1, h2, h3 {
@@ -33,18 +50,122 @@ h1, h2, h3 {
     color: var(--secondary-color);
 }
 
+
+
 p {
     display: flex;
     padding: 25px;
     font-family: var(--paragraph-font);
     color: steelblue;
+    justify-content: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+/************************************************************
+**************
+*
+*                 Content Defaults
+*
+*************************************************************
+***************/  
+
+body {
+    font-family: var(--paragraph-font);
+    padding: 20px;
+    margin: 0;
+}
+
+header, main, footer {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.hero {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.hero h1 {
+    position: absolute;
+    top: 314px;
+    background-color: rgb(0,0,0, 50%);
+    
+}
+article {
+    position: absolute;
+    background-color: rgb(0,0,0,50%);
+    width: 1023px;
+    top: 480px
+    
+}
+
+article img {
+    float: right;
+    width: 230px;
+}
+article p{
+    color: #1E96FC; /* dodger blue */
+}
+
+article h3 {
+    color: #F7CE5D;
+}
+
+
+.image1 {
+    width: 100%;
+    height: auto;
+}
+.image3 {
+    width: 100%;
+    height: auto;
+}
+.image2 {
+    width: 100%;
+    height: auto;
+}
+.image4 {
+    width: 100%;
+    height: auto;
+}
+.image5 {
+    width: 100%;
+    height: auto;
+    
+}
+
+
+.images {
+    display: grid;
+    grid-template-columns: 35% 41.3% 35% 35% 35%;
+    grid-template-rows: 35% 35% 35% 35% 35%;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
-.map {
+.contact h2 {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
+
+/************************************************************
+**************
+*
+*                 Header Area
+*
+*************************************************************
+***************/ 
 
 header {
     display: grid;
@@ -88,18 +209,59 @@ nav a:hover {
 }
 
 
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+figure {
+    border: thin solid steelblue;
+    display: flex;
+    flex-flow: column;
+    padding: 3px;
+    max-width: 100%;
+    margin: auto;
+   
+}   
 
-header, main, footer {
-    max-width: 50%;
-    margin: 0 auto;
+figcaption {
+    background-color: black;
+    color: white;
+    font: italic smaller var(--paragraph-font);
+    padding: 2px;
+    text-align: center;
+    max-width: 100%;
+
+}
+
+/************************************************************
+**************
+*
+*                 Footer Area
+*
+*************************************************************
+***************/ 
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+.footer-menu {
+    color: steelblue;
 }
 
 
+/************************************************************
+**************
+*
+*                 Rules For Contact Us Page
+*
+*************************************************************
+***************/ 
 
-
-
-.images {
+.employees {
     display: flex;
     justify-content: center;
     width: 350px;
@@ -112,8 +274,7 @@ header, main, footer {
     padding: 25px
 }
 
-
-h1, h2, h3 {
+h3 {
     display: flex;
     justify-content: center;
 }
@@ -138,6 +299,7 @@ figcaption {
     max-width: 100%;
 }
 
+
 form {
     width: 650px;
     margin: 0 auto;
@@ -147,6 +309,7 @@ form {
     background-color: var(--nav-background-color);
     display: grid;
 }
+
 
 fieldset {
     display: grid;
@@ -205,7 +368,18 @@ input[type="radio"] {
     margin: 0.5rem 0;
 }
 
-
-footer {
+.contact h1 {
     display: flex;
+    justify-content: center;
 }
+
+.map {
+    display: flex;
+    float: right;
+    position: absolute;
+    right: 200px;
+    top: 290px;
+    left: 1150px;
+    width: 200px;
+    height: 50px;
+}   

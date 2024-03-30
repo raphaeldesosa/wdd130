@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto+Slab:wght@100..900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: var(--paragraph-font);
     padding: 20px;
@@ -28,8 +34,16 @@ h1, h2, h3 {
 }
 
 p {
+    display: flex;
     padding: 25px;
     font-family: var(--paragraph-font);
+    color: steelblue;
+    justify-content: center;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
 }
 
 header {
@@ -66,86 +80,40 @@ nav a{
     color: steelblue;
     text-decoration: none;
     font-weight: bold;
-    
-    
+        
 }
 nav a:hover {
     color: brown;
 }
 
-.hero {
-    display: block;
-    width: 100%;
-    height: auto;
-}
 
 
 
-.hero h1 {
-    position: absolute;
-    top: 314px;
-    background-color: rgb(0,0,0, 50%);
-    
-}
-article {
-    position: absolute;
-    background-color: rgb(0,0,0,50%);
-    width: 1023px;
-    top: 480px
-    
-}
-
-article img {
-    float: right;
-    width: 230px;
-}
-article p{
-    color: #1E96FC; /* dodger blue */
-}
-
-article h3 {
-    color: #F7CE5D;
-}
 header, main, footer {
-    max-width: 55%;
+    max-width: 50%;
     margin: 0 auto;
 }
 
 
-.image1 {
-    width: 100%;
-    height: auto;
-}
-.image3 {
-    width: 100%;
-    height: auto;
-}
-.image2 {
-    width: 100%;
-    height: auto;
-}
-.image4 {
-    width: 100%;
-    height: auto;
-}
-.image5 {
-    width: 100%;
-    height: auto;
-    
-}
 
 
-.images {
-    display: grid;
-    grid-template-columns: 35% 41.3% 35% 35% 35%;
-    grid-template-rows: 35% 35% 35% 35% 35%;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
-h2 {
+.employees {
     display: flex;
-    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: auto;
+}
+
+.parent-container {
+    display: flex;
+    justify-content: center;
+    padding: 25px
+}
+
+
+h1, h2, h3 {
+    display: flex;
     justify-content: center;
 }
 
@@ -156,6 +124,7 @@ figure {
     padding: 3px;
     max-width: 100%;
     margin: auto;
+    justify-content: center;
    
 }   
 
@@ -166,8 +135,75 @@ figcaption {
     padding: 2px;
     text-align: center;
     max-width: 100%;
-
 }
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba( 0, 0, 0, .2);
+    border-radius: 0.5rem;
+    background-color: var(--nav-background-color);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: darkblue;
+    font-size: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-family: var(--paragraph-font);
+}
+
+label {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+button {
+    margin: 1rem;
+    background-color: steelblue;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: brown;
+}
+
+#textbox {
+    display: flex;
+    width: auto;
+    height: 200px;
+    text-align: left;
+}
+
+input[type="radio"] {
+    margin: -10px;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
 
 footer {
     display: flex;
