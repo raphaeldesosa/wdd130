@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" modified="2024-04-09T17:18:52.596Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="BYCQZ4IGot1YT4-D95qc" version="24.2.3" type="device">
+  <diagram name="Page-1" id="QWNOjtZL_6b9BA27r8h9">
+    <mxGraphModel dx="2049" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SigddhHKJZCSWALSGLOn-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="30" width="610" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SigddhHKJZCSWALSGLOn-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="170" width="730" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="SigddhHKJZCSWALSGLOn-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="60" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SigddhHKJZCSWALSGLOn-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="60" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SigddhHKJZCSWALSGLOn-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="60" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SigddhHKJZCSWALSGLOn-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="60" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SigddhHKJZCSWALSGLOn-7" value="home" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="267.5" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SigddhHKJZCSWALSGLOn-8" value="about us" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="377.5" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SigddhHKJZCSWALSGLOn-9" value="trips" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="487.5" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SigddhHKJZCSWALSGLOn-10" value="contacts" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="597.5" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SigddhHKJZCSWALSGLOn-11" value="Book a trip now" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="1">
+          <mxGeometry x="296.25" y="210" width="217.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SigddhHKJZCSWALSGLOn-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="256.87" y="480" width="301.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SigddhHKJZCSWALSGLOn-14" value="BOOK NOW" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="360" y="480" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SigddhHKJZCSWALSGLOn-15" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170.94" y="530" width="468.13" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SigddhHKJZCSWALSGLOn-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="700" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SigddhHKJZCSWALSGLOn-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="700" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SigddhHKJZCSWALSGLOn-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="296.25" y="700" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SigddhHKJZCSWALSGLOn-20" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="850" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SigddhHKJZCSWALSGLOn-21" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="296.25" y="850" width="223.75" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SigddhHKJZCSWALSGLOn-22" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="580" y="850" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SigddhHKJZCSWALSGLOn-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1040" width="850" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SigddhHKJZCSWALSGLOn-24" value="Footer content including social media icons" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1055" width="330" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
